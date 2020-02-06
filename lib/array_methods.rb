@@ -14,6 +14,8 @@ def find_max_value(array)
   array.length.times do |idx| 
     if array[idx] > counter
       counter = array[idx]
+    end
+    
 end
 
 def find_min_value(array)
