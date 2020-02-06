@@ -15,7 +15,8 @@ def find_max_value(array)
     if array[idx] > counter
       counter = array[idx]
     end
-    
+  end
+  counter
 end
 
 def find_min_value(array)
